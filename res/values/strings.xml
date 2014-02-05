@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Xenia</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <string name="usrhint">Username</string>
+    <string name="pwdhint">Password</string>
+    <string name="rmbme">Remember me</string>
+    <string name="title_activity_info">Automated Meter Readings</string>
+    <string name="cbal_lbl"><b>Current Balance \u0020 \u0020 \u0020 \u0020:</b></string>
+    <string name="gr_lbl"><b>Grid Reading\t:</b></string>
+    <string name="dgr_lbl"><b>DG Reading &#009; &#009;:</b></string>
+    <string name="lamt_lbl"><b>Last Recharge Amt. \u0020 \u0020:</b></string>
+    <string name="src_lbl"><b>Source of Power\t:</b></string>
+    <string name="guniterr">Grid Daily Usage Data unavailable</string>
+    <string name="dguniterr">DG Daily Usage Data unavailable</string>
+    <string name="title_activity_recharge">\ Recharge</string>
+
+</resources>

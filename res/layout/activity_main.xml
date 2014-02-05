@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bl_bg"
+    android:gravity="top"
+    android:paddingBottom="-10dip"
+    android:paddingLeft="-20dip"
+    android:paddingRight="-20dip"
+    android:paddingTop="-20dip"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/wbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lgtv"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_banner" />
+
+    <ImageView
+        android:id="@+id/bgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="30dip"
+        android:maxWidth="30dip"
+        android:src="@drawable/n_bg" />
+
+    <ImageView
+        android:id="@+id/xenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dip"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/xenialogo" />
+
+    <ImageView
+        android:id="@+id/lgb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bgi"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/redb" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lgb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/rmbme" />
+
+    <EditText
+        android:id="@+id/pwdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/AntiqueWhite"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/usret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pwdet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@color/AntiqueWhite"
+        android:ems="10"
+        android:hint="Username" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/lg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/usret"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/login"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
